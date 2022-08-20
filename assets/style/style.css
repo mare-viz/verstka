@@ -170,7 +170,7 @@ hr {
   font-weight: 700;
   text-decoration: none;
 
-  transition: backgroind 0.3s linear, color 0.1s linear;
+  transition: background 0.3s linear, color 0.1s linear;
 }
 .btn:hover {
   background-color: #fff;
@@ -257,7 +257,7 @@ hr {
 
 .section__header {
   width: 100%;
-  min-width: 950px;
+  max-width: 950px;
   margin: 0 auto 50px;
   text-align: center;
 }
@@ -649,6 +649,7 @@ hr {
 .logos {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* Works */
