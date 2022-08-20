@@ -1102,3 +1102,10 @@ hr {
 .copyright span {
   color: #f38181;
 }
+
+
+@media (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
+}
