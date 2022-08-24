@@ -35,7 +35,8 @@ hr {
 /* Container */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1230px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -1103,9 +1104,24 @@ hr {
   color: #f38181;
 }
 
-
 @media (max-width: 1200px) {
-  body {
-    background-color: red;
+  /* Intro */
+  .intro__title {
+    font-size: 120px;
+  }
+
+  .intro__suptitle {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 990px) {
+  /* Intro */
+  .intro__title {
+    font-size: 80px;
+  }
+
+  .intro__suptitle {
+    font-size: 32px;
   }
 }
